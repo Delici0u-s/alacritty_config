@@ -1,0 +1,6 @@
+general.import = ["base/alacritty_basic.toml"]
+
+terminal.shell = "zsh"
+
+general.working_directory = "D:/programming"
+

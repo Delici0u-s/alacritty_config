@@ -1,0 +1,31 @@
+[general]
+import = [
+  # Base
+  "../base/env_vars.toml",
+  "../base/window.toml",
+  "../base/fonts.toml",
+  "../base/behavior.toml",
+  "../base/hints.toml",
+  "../base/debug.toml",
+
+  # Appearance
+  "../appearance/colors.toml",
+  "../appearance/opacity.toml",
+  "../appearance/cursor.toml",
+
+  # Input
+  "../input/keybindings.toml",
+  "../input/mouse.toml",
+
+  # Themes
+  "../themes/default.toml",
+
+  # Platform-specific (optional)
+  # Uncomment one:
+  "platform/windows.toml",
+  # "platform/linux.toml",
+  # "platform/macos.toml"
+]
+
+ipc_socket = true
+live_config_reload = false

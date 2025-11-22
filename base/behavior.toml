@@ -1,0 +1,5 @@
+[scrolling]
+multiplier = 3 
+history = 10000
+[terminal]
+osc52 = "OnlyCopy"

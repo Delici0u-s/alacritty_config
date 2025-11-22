@@ -1,0 +1,14 @@
+[window]
+dimensions = { columns = 0, lines = 0 }
+position = { x = 50, y = 50 }
+padding = { x = 2, y = 2 }
+decorations = "Full" 
+opacity = 0.937168146928 # (100 - pi*2)/100
+blur = true
+startup_mode = "Windowed"
+title = "lé Terminaltor"
+dynamic_title = true
+class = { instance = "Alacritty", general = "Alacritty" } # no idea what that means tbh
+decorations_theme_variant = "Dark"
+resize_increments = false
+level = "Normal"

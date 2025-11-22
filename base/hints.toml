@@ -1,0 +1,18 @@
+[hints]
+alphabet = "jfkdls;ahgurieowpq"
+[[hints.enabled]]
+command = { program = "python3", args = [
+      "-c", 
+    "import sys,os,platform; url=sys.argv[1]; cmds={'Linux':'xdg-open','Darwin':'open','Windows':'cmd /c start \"\"'}; os.system(f'{cmds[platform.system()]} \"{url}\"')"
+  ] } # attempt at generic cross platform lol this works i guess xD
+#else uncomment as you wish:
+# command = "xdg-open" # On Linux/BSD
+# command = "open" # On macOS
+# command = { program = "cmd", args = [ "/c", "start", "" ] } # On
+
+hyperlinks = true
+post_processing = true
+persist = false
+mouse.enabled = true
+binding = { key = "O", mods = "Control|Shift" }
+regex = "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`\\\\]+"
