@@ -3,3 +3,21 @@ multiplier = 3
 history = 10000
 [terminal]
 osc52 = "OnlyCopy"
+
+[bell]
+animation = "EaseOutSine"
+duration = 314
+color = "#ffaa33"
+command = "None"
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+save_to_clipboard = false
+
+[cursor]
+style={shape="Beam", blinking="On"}
+vi_mode_style = {shape="Block", blinking = "Off"}
+blink_interval = 750
+blink_timeout = 5
+unfocused_hollow = true
+thickness = 0.15

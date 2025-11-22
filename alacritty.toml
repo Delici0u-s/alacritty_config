@@ -1,4 +1,7 @@
-general.import = ["base/alacritty_basic.toml"]
+general.import = ["base/alacritty_basic.toml",
+# THEME: 
+"themes/default.toml" # set the file to the theme file you want
+]
 
 terminal.shell = "zsh"
 
