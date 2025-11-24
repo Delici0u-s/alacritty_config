@@ -1,7 +1,7 @@
 [keyboard]
 bindings = [
-  { key = "T", mods = "Control|Shift", action = "SpawnNewInstance" },
-  { key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+  { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" },
+  { key = "T", mods = "Control|Shift", action = "CreateNewWindow" },
   { key = "v", mods = "alt", action = "ToggleViMode" },
   { key = "ArrowLeft",  mods = "Control", mode = "~Vi", chars = "\u001BB" },
   { key = "ArrowRight", mods = "Control", mode = "~Vi", chars = "\u001BF" },

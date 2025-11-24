@@ -6,7 +6,8 @@ osc52 = "OnlyCopy"
 
 [bell]
 animation = "EaseOutSine"
-duration = 314
+duration = 0
+# duration = 314
 color = "#ffaa33"
 command = "None"
 
